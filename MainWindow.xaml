@@ -65,7 +65,7 @@
                 </StackPanel>
             </TabItem>
             <TabItem Header="Weekly Calender">
-                <Grid Background="#FFC8C8C8" />
+                <Grid Background="Beige" />
             </TabItem>
         </TabControl>
     </StackPanel>
