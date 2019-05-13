@@ -60,7 +60,7 @@
                                    TextWrapping="Wrap"
                                    Foreground="#ff666666"
                                    FontSize="14"
-                                   Text="main text ddddddddddddddffffffffffffffrrrrrrrrrrrrrrrrrrrrrrrttttttttttttttttttttttttttttttttthhhhhhhhhhhhhhhhhhhhggggggggggggggggg" />
+                                   Text="main text SSSSSSSSSSSSSSSSSSSSSSSSddddddddddddddffffffffffffffrrrrrrrrrrrrrrrrrrrrrrrttttttttttttttttttttttttttttttttthhhhhhhhhhhhhhhhhhhhggggggggggggggggg" />
                     </StackPanel>
                 </StackPanel>
             </TabItem>
