@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:myWpfApp"
+        xmlns:views="clr-namespace:myWpfApp.UserControls"
         mc:Ignorable="d"
         Title="M@T Application"
         Height="500"
@@ -21,48 +22,7 @@
                 <Grid Background="#FFC8C8C8" />
             </TabItem>
             <TabItem Header="Details">
-                <StackPanel Background="DarkGray">
-                    <Grid Height="250"
-                          Margin="0,6,0,0">
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="*" />
-                            <RowDefinition Height="60" />
-                        </Grid.RowDefinitions>
-                        <Image Grid.RowSpan="2"
-                               Height="250"
-                               Stretch="UniformToFill"
-                               Source="Images/MH910216985.JPG">
-
-                        </Image>
-                        <Rectangle Grid.Row="1"
-                                   Fill="#66001E44" />
-                        
-                        <Image Source="Images/MH900438726.JPG"
-                               Stretch="UniformToFill"
-                               Width="55"
-                               Height="55"
-                               Grid.Row="1" 
-                               HorizontalAlignment="Right"/>
-                        
-                        <TextBlock Text="My Second Big text" 
-                                   Foreground="White"
-                                   FontSize="28"
-                                   FontWeight="Bold"
-                                   Grid.Row="1"
-                                   TextAlignment="Left"
-                                   VerticalAlignment="Center"/>
-                    </Grid>
-                    <StackPanel Orientation="Vertical"
-                                Margin="10">
-                        <TextBlock Text="main text" Foreground="White"
-                                   FontStyle="Italic" FontSize="18"/>
-                        <TextBlock Margin="0,10"
-                                   TextWrapping="Wrap"
-                                   Foreground="#ff666666"
-                                   FontSize="14"
-                                   Text="main text SSSSSSSSSSSSSSSSSSSSSSSSddddddddddddddffffffffffffffrrrrrrrrrrrrrrrrrrrrrrrttttttttttttttttttttttttttttttttthhhhhhhhhhhhhhhhhhhhggggggggggggggggg" />
-                    </StackPanel>
-                </StackPanel>
+                <views:DetailView />
             </TabItem>
             <TabItem Header="Weekly Calender">
                 <Grid Background="Beige" />
