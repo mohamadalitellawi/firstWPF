@@ -23,6 +23,7 @@ namespace myWpfApp.UserControls
         public TourStopsView()
         {
             InitializeComponent();
+            ToursListBox.ItemsSource = myWpfApp.Models.TourSource.GetAllTourStops();
         }
     }
 }
