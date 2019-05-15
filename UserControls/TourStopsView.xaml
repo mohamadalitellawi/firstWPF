@@ -11,8 +11,11 @@
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <StackPanel Orientation="Horizontal">
-                        <Image Source="{Binding ImageUri}"/>
-                        <TextBlock Text="{Binding Name}" />
+                        <Image Source="{Binding ImageUri}" 
+                               Height="100"
+                               Stretch="UniformToFill"/>
+                        <TextBlock Text="{Binding Name}" 
+                                   VerticalAlignment="Center" Margin="20"/>
                     </StackPanel>
                 </DataTemplate>
             </ListBox.ItemTemplate>
